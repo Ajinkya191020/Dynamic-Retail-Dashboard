@@ -69,6 +69,7 @@ Contains details about sales representatives and their respective regions.
    4. Apply slicers to filter by category, market, or region dynamically.
 
 
+![image](https://github.com/user-attachments/assets/aeb7470f-c874-492e-99da-fd0dae98a215)
 
 
 ---
@@ -83,6 +84,7 @@ Contains details about sales representatives and their respective regions.
    4. Add slicers for interactivity (e.g., by region or year).
 
 
+![image](https://github.com/user-attachments/assets/054c81fc-986f-4822-a5b8-19e64e5a74f1)
 
 
 ---
@@ -97,6 +99,7 @@ Contains details about sales representatives and their respective regions.
    4. Add labels to show percentage values dynamically.
 
 
+![image](https://github.com/user-attachments/assets/31f87c32-45d6-4f81-bf2d-20180df65e15)
 
 ---
 
@@ -110,6 +113,7 @@ Contains details about sales representatives and their respective regions.
    4. Alternatively, use a **Geographic Map Chart** to visualize sales geographically.
 
 
+![image](https://github.com/user-attachments/assets/2935fe8e-078d-4b63-a8e4-380c9f9e01f0)
 
 ---
 
@@ -122,6 +126,7 @@ Contains details about sales representatives and their respective regions.
    3. Filter to display the top 5 Sub-Categories.
    4. Use a **Column Chart** to visualize results.
 
+![image](https://github.com/user-attachments/assets/92e7a17b-ceae-4e6d-9397-4702632a4463)
 
 ---
 
@@ -133,6 +138,7 @@ Contains details about sales representatives and their respective regions.
    2. Filter to display the bottom 5 Sub-Categories.
    3. Use a **Column Chart** with contrasting colors to emphasize low-performing categories.
 
+![image](https://github.com/user-attachments/assets/05d9f707-b30d-40fd-9b24-579653bacb3c)
 
 ---
 
@@ -145,6 +151,7 @@ Contains details about sales representatives and their respective regions.
    3. Create a **Line Chart** to show the trend.
    4. Use slicers to filter by category, region, or segment.
 
+![image](https://github.com/user-attachments/assets/89bf9ee2-3a59-47ef-bbc9-5ea52dd89752)
 
 
 ---
@@ -179,4 +186,4 @@ This repository includes:
 - Visual examples for each solved problem statement.
 - Snapshots of the final dashboard with all components.
 
-
+![image](https://github.com/user-attachments/assets/08d41efe-1706-479d-95e9-fd5563b350a2)
