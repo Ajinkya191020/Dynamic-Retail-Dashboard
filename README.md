@@ -94,6 +94,56 @@ Contains details about sales representatives and their respective regions.
 
 ---
 
+### Next Steps
+The future enhancements for this project include:
+
+- **Return Analysis**: Explore the reasons behind returns and analyze trends across markets.
+- **Top and Bottom Customer Analysis**: Identify key customers and those requiring engagement strategies.
+- **Segment Analysis**: Deep dive into customer segments to tailor marketing and sales strategies.
+- **Market Analysis**: Compare sales and returns across different markets to optimize regional performance.
+- **Product Analysis**: Examine product-level performance to optimize inventory and pricing strategies.
+
+## KPI Metrics
+A dynamic KPI table was created to streamline the dashboard’s metrics:
+
+| Name               | Metric                 | Symbol |
+|--------------------|------------------------|--------|
+| Total Sales        | Sum of Sales           | 💰     |
+| Total Profit       | Sum of Profit          | 📈     |
+| Total Quantity     | Sum of Quantity        | 📦     |
+| No of Orders       | Count of Order ID      | 🛒     |
+| Profitability      | Sum of Profitability   | 💹     |
+| Average Discount   | Average of Discount    | 🔍     |
+
+## Steps to Create the Dashboard
+
+1. **Set Up Your Environment**:
+   - Choose a data analysis and visualization tool such as **Tableau**, **Power BI**, or **Python** with **Plotly/Dash**.
+   - Prepare your **development environment** by installing necessary libraries or software.
+   - Load the **Orders**, **People**, and **Return** datasets into your environment.
+
+2. **Data Cleaning and Preparation**:
+   - Ensure that each dataset is **cleaned** for null values, duplicates, and formatting inconsistencies.
+   - **Join** the three tables as needed, such as using `Order ID` to match returns data with orders.
+   - Create derived fields like **Total Profit**, **Profit Margin**, and **Sales Contribution**.
+
+3. **KPI Calculation**:
+   - Calculate **Total Sales**, **Total Profit**, **Total Quantity**, **Number of Orders**, and **Average Discount**.
+   - Summarize these metrics in a **KPI table** to be used in the dashboard.
+
+4. **Data Visualization**:
+   - Create various **charts and graphs**:
+     - **Bar Charts** for top and bottom subcategories.
+     - **Line Charts** for visualizing the **Yearly Sales Trend**.
+     - **Pie Charts** for **Segment-wise Sales Share**.
+     - **Geo Maps** for **Sales by Country**.
+   - Use **filtering options** to allow users to filter data by **region, market, and customer segment**.
+
+5. **Return Analysis**:
+   - Visualize the number of returns across different **markets** and **product categories**.
+   - Provide insights into patterns and potential issues causing returns.
+
+
 ## Snapshot of Dashboard
 
 ![image](https://github.com/user-attachments/assets/08d41efe-1706-479d-95e9-fd5563b350a2)
