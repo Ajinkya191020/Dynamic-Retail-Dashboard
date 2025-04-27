@@ -41,18 +41,7 @@ Contains details about sales representatives and their respective regions.
 ## Problem Statements Solved with Steps
 
 ### 1. **Key Performance Indicators (KPIs)**
-   **Objective:** Calculate and display Total Sales, Total Profit, Total Quantity, Number of Orders, and Profit Margin dynamically.
-
-   **Steps:**
-   1. Import the **Orders Table** into Excel using Power Query.
-   2. Create calculated columns for:
-      - `Profit Margin` = `Profit / Sales`.
-      - `Total Orders` = Count of `Order ID`.
-   3. Use Excel formulas to calculate:
-      - `Total Sales` = `=SUM(Sales)`.
-      - `Total Profit` = `=SUM(Profit)`.
-      - `Total Quantity` = `=SUM(Quantity)`.
-   4. Build a dynamic KPI table and use symbols to enhance visual appeal (e.g., 💰 for Total Sales).
+ 
 
 ![image](https://github.com/user-attachments/assets/5b2c22d8-01ce-4d52-bdf0-f557c4b2f05e)
 
@@ -60,130 +49,68 @@ Contains details about sales representatives and their respective regions.
 ---
 
 ### 2. **Sales and Profit Analysis**
-   **Objective:** Visualize sales and profit trends over time to identify patterns.
-
-   **Steps:**
-   1. Create a **Pivot Table** with `Order Date` grouped by Year and Month.
-   2. Add `Sales` and `Profit` as values.
-   3. Create a **Line Chart** to display trends for Sales and Profit.
-   4. Apply slicers to filter by category, market, or region dynamically.
-
-
+ 
 ![image](https://github.com/user-attachments/assets/aeb7470f-c874-492e-99da-fd0dae98a215)
 
 
 ---
 
 ### 3. **Category-Wise Profit**
-   **Objective:** Analyze profitability across product categories.
-
-   **Steps:**
-   1. Create a **Pivot Table** using `Category` as rows and `Profit` as values.
-   2. Sort the table in descending order of Profit.
-   3. Create a **Bar Chart** to visualize category-wise profit.
-   4. Add slicers for interactivity (e.g., by region or year).
-
-
+ 
 ![image](https://github.com/user-attachments/assets/054c81fc-986f-4822-a5b8-19e64e5a74f1)
 
 
 ---
 
 ### 4. **Segment-Wise Sales Share (%)**
-   **Objective:** Display the proportion of sales for each customer segment.
-
-   **Steps:**
-   1. Create a **Pivot Table** with `Segment` as rows and `Sales` as values.
-   2. Calculate percentage share using `=Sales / Total Sales * 100`.
-   3. Create a **Pie Chart** or **Donut Chart** to display the sales share.
-   4. Add labels to show percentage values dynamically.
-
 
 ![image](https://github.com/user-attachments/assets/31f87c32-45d6-4f81-bf2d-20180df65e15)
 
 ---
 
 ### 5. **Sales by Country**
-   **Objective:** Analyze sales performance by country.
-
-   **Steps:**
-   1. Create a **Pivot Table** with `Country` as rows and `Sales` as values.
-   2. Sort the table in descending order of Sales.
-   3. Use conditional formatting or a **Heatmap** to highlight top-performing countries.
-   4. Alternatively, use a **Geographic Map Chart** to visualize sales geographically.
-
-
+ 
 ![image](https://github.com/user-attachments/assets/2935fe8e-078d-4b63-a8e4-380c9f9e01f0)
 
 ---
 
 ### 6. **Top 5 Subcategories**
-   **Objective:** Identify the top 5 performing subcategories.
-
-   **Steps:**
-   1. Create a **Pivot Table** with `Sub-Category` as rows and `Sales` as values.
-   2. Sort the table in descending order of Sales.
-   3. Filter to display the top 5 Sub-Categories.
-   4. Use a **Column Chart** to visualize results.
-
+  
 ![image](https://github.com/user-attachments/assets/92e7a17b-ceae-4e6d-9397-4702632a4463)
 
 ---
 
 ### 7. **Bottom 5 Subcategories**
-   **Objective:** Highlight underperforming subcategories.
-
-   **Steps:**
-   1. Use the same **Pivot Table** as above but sort in ascending order of Sales.
-   2. Filter to display the bottom 5 Sub-Categories.
-   3. Use a **Column Chart** with contrasting colors to emphasize low-performing categories.
-
+  
 ![image](https://github.com/user-attachments/assets/05d9f707-b30d-40fd-9b24-579653bacb3c)
 
 ---
 
 ### 8. **Yearly Sales Trends**
-   **Objective:** Analyze sales trends over multiple years.
-
-   **Steps:**
-   1. Create a **Pivot Table** with `Order Date` grouped by Year.
-   2. Add `Sales` as values.
-   3. Create a **Line Chart** to show the trend.
-   4. Use slicers to filter by category, region, or segment.
+ 
 
 ![image](https://github.com/user-attachments/assets/89bf9ee2-3a59-47ef-bbc9-5ea52dd89752)
 
 
 ---
 
-## Dynamic Features
-The dashboard includes:
-1. **Dynamic Charts:** Update in real-time based on slicer inputs.
-2. **Power Query Integration:** Automates data cleaning and transformation.
-3. **KPI Table:** Highlights critical metrics at a glance.
-
----
-
-## Next Steps for Extension
-Additional insights to enhance the dashboard:
-1. **Return Analysis:** Investigate return rates by market or product category.
-2. **Top and Bottom Customers:** Identify most and least profitable customers.
-3. **Market Analysis:** Compare performance across different markets.
-4. **Product Analysis:** Evaluate individual product contributions.
-
----
-
-## Significance
-This dashboard empowers retail businesses to:
-- Track performance through KPIs.
-- Understand category, segment, and geographic trends.
-- Make data-driven decisions to optimize operations.
-
----
-
-## Visuals
-This repository includes:
-- Visual examples for each solved problem statement.
-- Snapshots of the final dashboard with all components.
+## Snapshot of Dashboard
 
 ![image](https://github.com/user-attachments/assets/08d41efe-1706-479d-95e9-fd5563b350a2)
+
+---
+
+## Conclusion
+The Walmart Dynamic Retail Dashboard provides a comprehensive, real-time view of key retail metrics, enabling better decision-making and faster operational responses. By integrating dynamic elements like interactive charts, slicers, and real-time KPIs, the dashboard empowers users to:
+
+Monitor sales performance across regions, stores, and product categories.
+
+Track inventory levels to optimize stock management and reduce out-of-stock scenarios.
+
+Analyze customer behavior and purchasing trends to fine-tune marketing and promotional strategies.
+
+Identify top-performing and underperforming products, helping drive data-driven merchandising decisions.
+
+Visualize financial health through clear profit, revenue, and cost indicators.
+
+Overall, this dashboard acts as a central command center for Walmart’s retail operations, ensuring leaders have the right insights to maximize efficiency, profitability, and customer satisfaction. The dynamic features allow for flexible data exploration, making it easier for different teams (sales, inventory, finance) to collaborate and act swiftly.
